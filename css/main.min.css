@@ -9,7 +9,7 @@ body {
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 87vh;
+  height: 90vh;
 }
 
 body.level1 {
@@ -36,14 +36,20 @@ body.level4 {
   bottom: 3rem;
 }
 @media (max-width: 375px) {
-  .director-block {  
-     bottom: 2rem;
+  .director-block {
+    bottom: 0;
+    display: block;
+  }
+}
+@media (max-width: 350px) {
+  .director-block {
+    bottom: 2rem;
     display: block;
   }
 }
 @media (max-width: 320px) {
-  .director-block {    
-     bottom: 3rem;
+  .director-block {
+    bottom: 3rem;
     display: block;
   }
 }
@@ -58,7 +64,7 @@ body.level4 {
   width: 50%;
   border-radius: 4px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 128, 0.45);
-  padding: 0.75rem;
+  padding: 1.5rem 0.75rem;
   color: white;
   text-transform: uppercase;
   background-color: rgba(0, 0, 126, 0.75);
@@ -76,7 +82,7 @@ body.level4 {
 }
 
 .game {
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0.5rem;
 }
