@@ -9,7 +9,7 @@ body {
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 87vh;
 }
 
 body.level1 {
@@ -36,12 +36,6 @@ body.level4 {
   bottom: 3rem;
 }
 @media (max-width: 375px) {
-  .director-block {
-    bottom: 0;
-    display: block;
-  }
-}
-@media (max-width: 350px) {
   .director-block {
     bottom: 2rem;
     display: block;
