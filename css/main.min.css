@@ -9,6 +9,7 @@ body {
   /* background-repeat: no-repeat; */
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 body.level1 {
@@ -27,20 +28,53 @@ body.level4 {
   background-image: url("../images/cosmos/с4.jpeg");
 }
 
+.director-block {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 3rem;
+}
+.director-block .buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  padding: 0 0.75rem;
+}
+.director-block .buttons button {
+  width: 50%;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 128, 0.45);
+  padding: 0.75rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: rgba(0, 0, 126, 0.75);
+}
+.director-block .touch-square {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-shadow: 0 0 5px rgb(0, 0, 128);
+}
+.director-block .touch-square .blue {
+  color: blue;
+}
+.director-block .touch-square .red {
+  color: red;
+}
+
 .game {
   max-width: 600px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 #arkanoid {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 128, 0.45);
   background-color: #5a67dc;
   width: 100%;
   border: 10px solid rgb(139, 137, 137);
@@ -55,7 +89,7 @@ body.level4 {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: 110%;
   color: rgb(235, 236, 240);
   background-color: rgba(0, 0, 0, 0.5);
