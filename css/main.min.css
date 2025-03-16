@@ -29,10 +29,29 @@ body.level4 {
 }
 
 .director-block {
+  display: none;
   position: fixed;
   text-align: center;
   width: 100%;
   bottom: 3rem;
+}
+@media (max-width: 375px) {
+  .director-block {
+    bottom: 0;
+    display: block;
+  }
+}
+@media (max-width: 350px) {
+  .director-block {
+    bottom: 2rem;
+    display: block;
+  }
+}
+@media (max-width: 320px) {
+  .director-block {
+    bottom: 3rem;
+    display: block;
+  }
 }
 .director-block .buttons {
   display: inline-flex;
