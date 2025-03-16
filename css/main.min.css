@@ -33,17 +33,17 @@ body.level4 {
   position: fixed;
   text-align: center;
   width: 100%;
-  bottom: 3rem;
+  bottom: 2rem;
 }
 @media (max-width: 375px) {
   .director-block {
-    bottom: 2rem;
+    bottom: 1rem;
     display: block;
   }
 }
 @media (max-width: 320px) {
   .director-block {
-    bottom: 3rem;
+    bottom: 2rem;
     display: block;
   }
 }
@@ -58,7 +58,7 @@ body.level4 {
   width: 50%;
   border-radius: 4px;
   box-shadow: 0 0 5px 5px rgba(0, 0, 128, 0.45);
-  padding: 1.5rem 0.75rem;
+  padding: 2rem 0.75rem;
   color: white;
   text-transform: uppercase;
   background-color: rgba(0, 0, 126, 0.75);
